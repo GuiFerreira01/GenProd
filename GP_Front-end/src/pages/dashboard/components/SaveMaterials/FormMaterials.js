@@ -37,7 +37,7 @@ function FormMaterials() {
             <div className='form-color'>
                 <div className='form-form'>
                     <div className='title'>
-                        <h3>Add Material</h3>
+                        <h3>Add Raw Material</h3>
                     </div>
                     <form onSubmit={Enviar} className="add" method='post'>
                         <label for="Name">Name</label>
