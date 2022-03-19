@@ -26,7 +26,7 @@ public class SpringSecurityDemoAppApplication {
 		SpringApplication.run(SpringSecurityDemoAppApplication.class, args);
 	}
 
-	/*@PostConstruct
+	@PostConstruct
 	protected void init() {
 
 		List<Authority> authorityList=new ArrayList<>();
@@ -36,17 +36,17 @@ public class SpringSecurityDemoAppApplication {
 
 		User user=new User();
 
-		user.setUserName("Cunha");
-		user.setFirstName("Cunha");
-		user.setLastName("Silva");
+		user.setUserName("admin");
+		user.setFirstName("admin");
+		user.setLastName("admin");
 
-		user.setPassword(passwordEncoder.encode("silva123"));
+		user.setPassword(passwordEncoder.encode("admin123"));
 		user.setEnabled(true);
 		user.setAuthorities(authorityList);
 
 		userDetailsRepository.save(user);
 
-	}*/
+	}
 	
 	
 	private Authority createAuthority(String roleCode,String roleDescription) {
