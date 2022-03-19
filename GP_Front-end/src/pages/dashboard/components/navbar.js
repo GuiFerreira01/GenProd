@@ -24,7 +24,7 @@ function Header(props) {
                     <Nav className="me-auto"></Nav>
                     <Nav>
                         <Link className='nav-link' to="/home">See Products</Link>
-                        <Link className='nav-link' to="/seeMaterials">See Mateirals</Link>
+                        <Link className='nav-link' to="/seeMaterials">See Raw Mateirals</Link>
                         <Link className='nav-link' to="/saveproduct">Add Product</Link>
                         <Link className='nav-link' to="/savematerial">Add Mateiral</Link>
                     </Nav>
