@@ -120,11 +120,11 @@ function FormProd() {
 
                         <div className='materials'>
                             <div className='material-title'>
-                                <label id="title-materials" for="material1">Mateirals</label>
+                                <label id="title-materials" for="material1"> Raw Mateirals </label>
                             </div>
                             <hr />
                             <div className={isActive ? null : "none"}>
-                                <h5 className='color-light'>Material Submited</h5>
+                                <h5 className='color-light'>Raw Material Submited</h5>
                             </div>
                             <div id="flex">
 
