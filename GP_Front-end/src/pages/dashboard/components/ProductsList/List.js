@@ -7,14 +7,7 @@ import { Link } from "react-router-dom"
 
 export default (props) => {
 
-
     const [isActive, setActive] = useState("false");
-
-
-
-
-    
-
 
     return (
         <Card key={props.key} >
@@ -53,7 +46,7 @@ export default (props) => {
                     </div>
                 </div>
                 <hr />
-                <Card.Title> <strong> Materials needed </strong> </Card.Title>
+                <Card.Title> <strong> Raw Materials needed </strong> </Card.Title>
                 <div className="materilas-list">
                     <hr />
                     {typeof props.material !== "undefined" && props.material.map((value, index) => {
