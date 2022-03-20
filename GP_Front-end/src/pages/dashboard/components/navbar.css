@@ -1,0 +1,15 @@
+.navbar-brand{
+    padding: 0;
+    margin-left: 10px;
+}
+  
+.logo{
+    width: 10rem;
+}
+  
+.exit{
+    width: 51px;
+    height: 49px;
+    margin-left: 10px;
+    cursor: pointer;
+}

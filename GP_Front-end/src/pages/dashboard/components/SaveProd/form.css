@@ -1,0 +1,119 @@
+.add input[type=text], input[type=number] {
+    color: black;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#teste{
+    width: 50%;
+}
+
+#flex{
+    display: flex;
+}
+
+.mr-2{
+    margin-right: 2%;
+}
+
+.color-light{
+    color: greenyellow;
+}
+
+.material-title{
+    display: flex;
+    justify-content: center;
+}
+
+#title-materials{
+    font-size: 1.5rem;
+}
+
+.materials hr{
+    color: white;
+    height: 3px;
+}
+
+#submit{
+    width: 100%;
+    margin-top: 21px;
+    background-color: #5EA6C6;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.form-form{
+    padding: 50px 25px 50px 25px;
+}
+
+.title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.title h3{
+    color: white;
+    font-size: 55px;
+}
+
+.form-form label{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+
+@media (max-width: 650px) {
+    .responsive{
+        display: block;
+    }
+
+    .form-color{
+        width: 100%;
+        background-color: black;
+        
+    }
+
+    .form-content{
+        width: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 650px) {
+    
+    .form-color{
+        margin-top: 30px;
+        width: 80%;
+        background-color: black;
+        border-radius: 57px 57px 57px 57px;
+    }
+    
+    .form-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .responsive{
+        display: flex;
+    }
+
+}

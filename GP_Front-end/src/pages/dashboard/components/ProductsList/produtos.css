@@ -1,0 +1,117 @@
+
+
+.list-color .card{
+    margin-top: 20px;
+    width: 97% ;
+    border-radius: 57px 57px 57px 57px;
+    justify-content: center;
+    text-align: center;
+}
+
+.list-color{
+    background-color: #4a41a9;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.list-content{
+    margin: 0;
+    padding: 0;
+}
+
+.container, .container-sm {
+    max-width: 100% ;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.button{
+    justify-content: center;
+    align-items: center;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.list-color .card-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.materilas-list #delete, #edit{
+    border-radius: 100px;
+    margin: 5px;
+}
+
+
+
+
+.color-list-responsive{
+    background-color: #4a41a9;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.none{
+    display: none;
+}
+
+.my-5{
+    margin-bottom: 20px;
+}
+
+
+@media (min-width: 768px) {
+    .list-color .card{
+        margin-top: 20px; 
+        margin-left: 20px;
+        width: 18rem; 
+        border-radius: 57px 57px 57px 57px;
+        justify-content: start;
+        text-align: start;
+    }
+
+    .list-color{
+        
+        background-color: #4a41a9;
+        border-radius: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+   
+    .list-content{
+        margin: 0;
+        padding: 0;
+    }
+
+    .container, .container-sm {
+        max-width: 100% ;
+        width: 100%;
+        margin: 0;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .materilas-list #delete, #edit{
+        padding: 15px;
+        border-radius: 100px;
+    }
+
+    .list-content .row{
+        justify-content: center;
+        background-color: #4a41a9;
+        width: 98%;
+    }
+
+}
